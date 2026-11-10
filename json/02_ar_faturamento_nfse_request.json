@@ -1,0 +1,174 @@
+{
+  "order": {
+    "orderNumber": "2026/AUG404501/AR",
+    "jobInvoiceNumber": "S26TRN052045",
+    "orderDate": "2026-10-01T08:41:00",
+    "orderType": 0,
+    "creditNote": false,
+    "currency": "BRL",
+    "customerSupplierCode": "WOLSOLBR",
+    "crmAccountId": "397688",
+    "exchangeRate": 1.0,
+    "paymentTermsDays": 30,
+    "paymentMethod": "TRF",
+    "dueDate": "2026-10-31T08:41:00",
+    "createInvoiceUserCode": "LHB",
+    "createInvoiceUserName": "Leonardo Henrique",
+    "items": [
+      {
+        "rowDescription": "International Freight",
+        "chargeCode": "FRT",
+        "quantity": 1,
+        "unitAmount": 1331.89,
+        "totalAmount": 1331.89,
+        "currency": "BRL",
+        "cumulative": false,
+        "isCustomDuty": false,
+        "chargeLineBranch": "REC",
+        "chargeExchangeRate": 1.0,
+        "shipmentsCharges": [
+          {
+            "shipmentNumber": "S26TRN052045",
+            "division": 3,
+            "shipmentType": "SPA",
+            "chargeCode": "FRT",
+            "amount": 1331.89,
+            "isCustomDuty": false
+          }
+        ],
+        "taxes": [],
+        "IBS_CBS": {
+          "SituacaoTributaria": "",
+          "ClassificacaoTributaria": "",
+          "BaseCalculo": 0,
+          "TotalIBS": 0,
+          "ValorTotalIBS_CBS_IS": 0
+        }
+      },
+      {
+        "rowDescription": "Collect Fee",
+        "chargeCode": "CCLFEE",
+        "quantity": 1,
+        "unitAmount": 70.59,
+        "totalAmount": 70.59,
+        "currency": "BRL",
+        "cumulative": false,
+        "isCustomDuty": false,
+        "chargeLineBranch": "REC",
+        "chargeExchangeRate": 1.0,
+        "shipmentsCharges": [
+          {
+            "shipmentNumber": "S26TRN052045",
+            "division": 3,
+            "shipmentType": "SPA",
+            "chargeCode": "CCLFEE",
+            "amount": 70.59,
+            "isCustomDuty": false
+          }
+        ],
+        "taxes": [
+          {
+            "taxCode": "ISS",
+            "taxRate": 5.0,
+            "localTaxBase": 70.59,
+            "localTaxAmount": -3.53
+          },
+          {
+            "taxCode": "PCOFIN",
+            "taxRate": 7.6,
+            "localTaxBase": 70.59,
+            "localTaxAmount": -5.36
+          },
+          {
+            "taxCode": "PPIS",
+            "taxRate": 1.65,
+            "localTaxBase": 70.59,
+            "localTaxAmount": -1.16
+          },
+          {
+            "taxCode": "IRRF",
+            "taxRate": 1.5,
+            "localTaxBase": 70.59,
+            "localTaxAmount": -1.06
+          }
+        ],
+        "IBS_CBS": {
+          "SituacaoTributaria": "",
+          "ClassificacaoTributaria": "",
+          "BaseCalculo": 70.59,
+          "TotalIBS": 0.07,
+          "ValorTotalIBS_CBS_IS": 0.71,
+          "IBS_UF": {
+            "AliquotaIBS_UF": 0.1,
+            "ValorIBS_UF": 0.07
+          },
+          "CBS": {
+            "AliquotaCBS": 0.9,
+            "ValorCBS": 0.64
+          },
+          "TributacaoRegular": "Tributação Normal",
+          "CreditoPresumido": "Sem crédito presumido",
+          "ComprasGovernamentais": "Não aplicável"
+        }
+      }
+    ],
+    "shipmentsDimensions": [
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "ShipmentBranch",
+        "dimensionValueType": 0,
+        "dimensionValueString": "REC"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "Department",
+        "dimensionValueType": 0,
+        "dimensionValueString": "FIA"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "OriginCountry",
+        "dimensionValueType": 0,
+        "dimensionValueString": "ITA"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "DestinationCountry",
+        "dimensionValueType": 0,
+        "dimensionValueString": "BRA"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "CompetenceDate",
+        "dimensionValueType": 2,
+        "dimensionValueDate": "2026-09-22T18:00:00"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "MasterBill",
+        "dimensionValueType": 0,
+        "dimensionValueString": "020-25591311"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "HouseBill",
+        "dimensionValueType": 0,
+        "dimensionValueString": "26TRN052045"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "IncoTerm",
+        "dimensionValueType": 0,
+        "dimensionValueString": "FCA"
+      }
+    ]
+  }
+}

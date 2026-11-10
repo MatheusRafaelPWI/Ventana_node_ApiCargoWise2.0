@@ -1,0 +1,87 @@
+{
+  "order": {
+    "orderNumber": "FAT-FORN-2026/01",
+    "jobInvoiceNumber": "S26TRN052045",
+    "orderDate": "2026-10-01T08:00:00",
+    "orderType": 1,
+    "creditNote": false,
+    "currency": "BRL",
+    "totalAmount": 1500.00,
+    "customerSupplierCode": "WOLSOLBR",
+    "crmAccountId": "397688",
+    "exchangeRate": 1.0,
+    "paymentTermsDays": 30,
+    "paymentMethod": "TRF",
+    "dueDate": "2026-10-31T08:00:00",
+    "createInvoiceUserCode": "LHB",
+    "createInvoiceUserName": "Leonardo Henrique",
+    "items": [
+      {
+        "rowDescription": "Frete Internacional Aéreo",
+        "chargeCode": "FRT",
+        "quantity": 1,
+        "unitAmount": 1500.00,
+        "totalAmount": 1500.00,
+        "currency": "BRL",
+        "cumulative": false,
+        "isCustomDuty": false,
+        "chargeLineBranch": "REC",
+        "chargeExchangeRate": 1.0,
+        "shipmentsCharges": [
+          {
+            "shipmentNumber": "S26TRN052045",
+            "division": 3,
+            "shipmentType": "SPA",
+            "chargeCode": "FRT",
+            "amount": 1500.00,
+            "isCustomDuty": false
+          }
+        ]
+      }
+    ],
+    "shipmentsDimensions": [
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "ShipmentBranch",
+        "dimensionValueType": 0,
+        "dimensionValueString": "REC"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "Department",
+        "dimensionValueType": 0,
+        "dimensionValueString": "FIA"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "CompetenceDate",
+        "dimensionValueType": 2,
+        "dimensionValueDate": "2026-09-22T18:00:00"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "MasterBill",
+        "dimensionValueType": 0,
+        "dimensionValueString": "020-25591311"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "HouseBill",
+        "dimensionValueType": 0,
+        "dimensionValueString": "26TRN052045"
+      },
+      {
+        "shipmentNumber": "S26TRN052045",
+        "division": 3,
+        "dimensionName": "IncoTerm",
+        "dimensionValueType": 0,
+        "dimensionValueString": "FCA"
+      }
+    ]
+  }
+}

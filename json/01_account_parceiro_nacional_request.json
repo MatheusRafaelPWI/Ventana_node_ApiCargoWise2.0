@@ -1,0 +1,21 @@
+{
+  "CorporateAccountCode": "CLI-WOLPAC-01",
+  "CompanyName": "WOLPAC SISTEMAS DE CONTROLE LTDA",
+  "IsClient": true,
+  "IsSupplier": false,
+  "Address": {
+    "CountryCode": "BRA",
+    "Zone": "SP",
+    "City": "Ferraz de Vasconcelos",
+    "District": "Vila Romanopolis",
+    "Street": "Avenida Brasil, 1500",
+    "ZipCode": "08500-000",
+    "OtherInfo": "Bloco A"
+  },
+  "BankFinancialInfo": {
+    "CNPJ": "02154879000185"
+  },
+  "TaxRegime": 3,
+  "BusinessPhone": "(11) 4674-8800",
+  "Email": "fiscal@wolpac.com.br"
+}
