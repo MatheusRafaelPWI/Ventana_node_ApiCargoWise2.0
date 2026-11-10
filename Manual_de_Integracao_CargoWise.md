@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="media/image62.png" alt="Ventana Serra - Grupo Arcese" width="280" style="max-width: 280px; height: auto;" />
+<img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image62.png" alt="Ventana Serra - Grupo Arcese" width="280" style="max-width: 280px; height: auto;" />
 
 </div>
 
@@ -13,13 +13,13 @@ Esta documentação detalha a arquitetura da API Ventana Node CargoWise 2.0. Aqu
 > [!NOTE]
 > ### 📥 Central de Downloads Rápidos da Documentação
 >
-> [![⬇️ Baixar Manual em PDF](https://img.shields.io/badge/⬇️%20Baixar-PDF%20Oficial-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Manual_de_Integracao_CargoWise.pdf)
+> [![⬇️ Baixar Manual em PDF](https://img.shields.io/badge/⬇️%20Baixar-PDF%20Oficial-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
 > &nbsp;
-> [![⬇️ Baixar Pacote JSONs](https://img.shields.io/badge/⬇️%20Baixar-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](payloads_cargowise_json.zip)
+> [![⬇️ Baixar Pacote JSONs](https://img.shields.io/badge/⬇️%20Baixar-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip)
 >
-> * **PDF Executivo Oficial:** [`Manual_de_Integracao_CargoWise.pdf`](Manual_de_Integracao_CargoWise.pdf) *(1.3 MB)*
-> * **Pacote com Todos os JSONs:** [`payloads_cargowise_json.zip`](payloads_cargowise_json.zip) *(21 KB)*
-> * **Catálogo Individual JSON:** Pasta [`json/`](json/) contendo todos os payloads de requisição desacoplados.
+> * **PDF Executivo Oficial:** [`Manual_de_Integracao_CargoWise.pdf`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf) *(1.3 MB)*
+> * **Pacote com Todos os JSONs:** [`payloads_cargowise_json.zip`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip) *(21 KB)*
+> * **Catálogo Individual JSON:** Pasta [`json/`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/) contendo todos os payloads de requisição desacoplados.
 
 ---
 
@@ -87,11 +87,11 @@ A API foi construída sobre o framework corporativo **Plata Runtime (`pwi-plata-
 
 
 <div align="center" style="margin: 25px 0;">
-  <a href="media/diagram_mermaid_1.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
-    <img src="media/diagram_mermaid_1.png" alt="Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
+  <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
+    <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.png" alt="Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
   <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID &bull; <a href="media/diagram_mermaid_1.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
+    Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
   </p>
 </div>
 
@@ -150,11 +150,11 @@ Sincronizar a base de parceiros (clientes, fornecedores, agentes no exterior e f
 
 
 <div align="center" style="margin: 25px 0;">
-  <a href="media/diagram_mermaid_2.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
-    <img src="media/diagram_mermaid_2.png" alt="Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
+  <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
+    <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.png" alt="Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
   <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account) &bull; <a href="media/diagram_mermaid_2.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
+    Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
   </p>
 </div>
 
@@ -212,7 +212,7 @@ A API executa 3 camadas de busca antes de criar um novo registro:
 * **Endpoint:** `POST /v1/cargowise/Account`
 * **Payload JSON:**
 
->  **Arquivo JSON:** [`json/01_account_parceiro_nacional_request.json`](json/01_account_parceiro_nacional_request.json)
+>  **Arquivo JSON:** [`json/01_account_parceiro_nacional_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json)
 
 * **Resposta Esperada:**
 
@@ -228,7 +228,7 @@ A API executa 3 camadas de busca antes de criar um novo registro:
 * **Evidência Visual no ERP Volpe (`TB_CADUNICO`):**
 O registro é criado no módulo de Cadastros Gerais com todos os campos fiscais preenchidos:
 
-![Evidência no Volpe - Cadastro em TB_CADUNICO](media/image58.png)
+![Evidência no Volpe - Cadastro em TB_CADUNICO](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image58.png)
 
 ---
 
@@ -253,11 +253,11 @@ Registrar no ERP Volpe as faturas de despesas operacionais e custos de fornecedo
 
 
 <div align="center" style="margin: 25px 0;">
-  <a href="media/diagram_mermaid_3.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
-    <img src="media/diagram_mermaid_3.png" alt="Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
+  <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
+    <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.png" alt="Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
   <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno) &bull; <a href="media/diagram_mermaid_3.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
+    Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
   </p>
 </div>
 
@@ -313,7 +313,7 @@ Quando a fatura for enviada com `"creditNote": true`:
 * **Endpoint:** `POST /v1/cargowise/AP`
 * **Payload JSON:**
 
->  **Arquivo JSON:** [`json/02_ap_fatura_padrao_request.json`](json/02_ap_fatura_padrao_request.json)
+>  **Arquivo JSON:** [`json/02_ap_fatura_padrao_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json)
 
 * **Resposta da API:**
 
@@ -329,13 +329,13 @@ Quando a fatura for enviada com `"creditNote": true`:
 * **Evidências Visuais no ERP Volpe:**
 
 1. **Título Financeiro em `FI_MOVFIN` e Rateio Contábil em `FI_MOVRAT`:**
-![Evidência no Volpe - FI_MOVFIN e FI_MOVRAT](media/image2.png)
+![Evidência no Volpe - FI_MOVFIN e FI_MOVRAT](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image2.png)
 
 2. **Processo Operacional Associado em `AG_PROCESSO`:**
-![Evidência no Volpe - AG_PROCESSO](media/image3.png)
+![Evidência no Volpe - AG_PROCESSO](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image3.png)
 
 3. **Custos Operacionais do Embarque em `AG_PROCESSOTAXAS`:**
-![Evidência no Volpe - AG_PROCESSOTAXAS](media/image4.png)
+![Evidência no Volpe - AG_PROCESSOTAXAS](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image4.png)
 
 ---
 
@@ -349,13 +349,13 @@ Quando a fatura for enviada com `"creditNote": true`:
 * **Evidências Visuais no ERP Volpe:**
 
 1. **Baixa e Cancelamento do Título em `FI_MOVFIN` (Contas a Pagar):**
-![Evidência no Volpe - Cancelamento de Título a Pagar](media/image7.png)
+![Evidência no Volpe - Cancelamento de Título a Pagar](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image7.png)
 
 2. **Registro de Compensação em `FI_BAIXAS`:**
-![Evidência no Volpe - Registro de Baixa em FI_BAIXAS](media/image8.png)
+![Evidência no Volpe - Registro de Baixa em FI_BAIXAS](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image8.png)
 
 3. **Reversão das Taxas em `AG_PROCESSOTAXAS`:**
-![Evidência no Volpe - Reversão em AG_PROCESSOTAXAS](media/image10.png)
+![Evidência no Volpe - Reversão em AG_PROCESSOTAXAS](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image10.png)
 
 ---
 
@@ -372,7 +372,7 @@ Quando a fatura for enviada com `"creditNote": true`:
   * Demonstra a paridade integral e a robustez transacional da API ao converter múltiplos câmbios de itens e consolidar o valor bruto de R$ 431.339,31.
 * **Payload JSON:**
 
->  **Arquivo JSON:** [`json/03_ap_fatura_multiprocesso_real.json`](json/03_ap_fatura_multiprocesso_real.json)
+>  **Arquivo JSON:** [`json/03_ap_fatura_multiprocesso_real.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json)
 
 * **Resposta da API:**
 
@@ -385,7 +385,7 @@ Quando a fatura for enviada com `"creditNote": true`:
 ```
 
 * **Evidência Operacional no ERP Volpe (`Contas a pagar - ALTERAR`):**
-![Fatura AP Multi-Processos Homologada no ERP Volpe](media/volpe_ap_contas_a_pagar_real.jpg)
+![Fatura AP Multi-Processos Homologada no ERP Volpe](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/volpe_ap_contas_a_pagar_real.jpg)
 
 > [!NOTE]
 > **Tratamento de Serviços sem De-Para em `AG_SERVICOS`:**
@@ -414,11 +414,11 @@ O módulo AR é o coração financeiro e fiscal da integração da Ventana Serra
 
 
 <div align="center" style="margin: 25px 0;">
-  <a href="media/diagram_mermaid_4.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
-    <img src="media/diagram_mermaid_4.png" alt="Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
+  <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
+    <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.png" alt="Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
   <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e) &bull; <a href="media/diagram_mermaid_4.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
+    Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
   </p>
 </div>
 
@@ -499,7 +499,7 @@ Quando o faturamento for cancelado na CargoWise e reenviado com `"creditNote": t
 * **Endpoint:** `POST /v1/cargowise/AR`
 * **Exemplo de Payload com Múltiplas Taxas, Retenções e Dimensões:**
 
->  **Arquivo JSON:** [`json/04_ar_faturamento_nfse_request.json`](json/04_ar_faturamento_nfse_request.json)
+>  **Arquivo JSON:** [`json/04_ar_faturamento_nfse_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json)
 
 * **Resposta da API:**
 
@@ -515,16 +515,16 @@ Quando o faturamento for cancelado na CargoWise e reenviado com `"creditNote": t
 * **Evidências Visuais no ERP Volpe:**
 
 1. **Títulos Financeiros Desdobrados em `FI_MOVFIN` (Tributado e Reembolso):**
-![Evidência no Volpe - Títulos em FI_MOVFIN](media/image30.png)
+![Evidência no Volpe - Títulos em FI_MOVFIN](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image30.png)
 
 2. **Cabeçalho da Nota Fiscal de Serviço Emitida (`FT_NSERVICOS`):**
-![Evidência no Volpe - Nota Fiscal de Serviço](media/image32.png)
+![Evidência no Volpe - Nota Fiscal de Serviço](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image32.png)
 
 3. **Itens Tributados e Retenções de Impostos (`FT_NSITENS`):**
-![Evidência no Volpe - Itens da NFS](media/image33.png)
+![Evidência no Volpe - Itens da NFS](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image33.png)
 
 4. **Faturamento Mestre em `AG_FATURADO`:**
-![Evidência no Volpe - Registro em AG_FATURADO](media/image34.png)
+![Evidência no Volpe - Registro em AG_FATURADO](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image34.png)
 
 ---
 
@@ -535,13 +535,13 @@ Quando o faturamento for cancelado na CargoWise e reenviado com `"creditNote": t
 * **Evidências Visuais no ERP Volpe:**
 
 1. **Baixa e Desfazimento do Contas a Receber (`FI_BAIXAS`):**
-![Evidência no Volpe - Baixas e Compensações](media/image40.png)
+![Evidência no Volpe - Baixas e Compensações](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image40.png)
 
 2. **Cancelamento / Exclusão da Nota Fiscal de Serviço (`FT_NSERVICOS`):**
-![Evidência no Volpe - Cancelamento de Nota de Serviço](media/image45.png)
+![Evidência no Volpe - Cancelamento de Nota de Serviço](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image45.png)
 
 3. **Faturamento Marcado como Cancelado em `AG_FATURADO`:**
-![Evidência no Volpe - AG_FATURADO Estornado](media/image46.png)
+![Evidência no Volpe - AG_FATURADO Estornado](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image46.png)
 
 ---
 
@@ -561,11 +561,11 @@ Registrar os termos e protocolos comerciais pactuados na CargoWise, atualizando 
 
 
 <div align="center" style="margin: 25px 0;">
-  <a href="media/diagram_mermaid_5.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
-    <img src="media/diagram_mermaid_5.png" alt="Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
+  <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
+    <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.png" alt="Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
   <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM) &bull; <a href="media/diagram_mermaid_5.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
+    Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
   </p>
 </div>
 
@@ -601,7 +601,7 @@ Registrar os termos e protocolos comerciais pactuados na CargoWise, atualizando 
 * **Endpoint:** `POST /v1/cargowise/Contract`
 * **Payload JSON:**
 
->  **Arquivo JSON:** [`json/05_contract_vinculo_request.json`](json/05_contract_vinculo_request.json)
+>  **Arquivo JSON:** [`json/05_contract_vinculo_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json)
 
 * **Resposta da API:**
 
@@ -617,10 +617,10 @@ Registrar os termos e protocolos comerciais pactuados na CargoWise, atualizando 
 * **Evidências Visuais no ERP Volpe:**
 
 1. **Protocolo Contratual em `CW_CONTRATO`:**
-![Evidência no Volpe - CW_CONTRATO](media/image60.png)
+![Evidência no Volpe - CW_CONTRATO](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image60.png)
 
 2. **Inscrição Estadual e Vendedor Associados em `TB_CADUNICO`:**
-![Evidência no Volpe - TB_CADUNICO com IE e Kam](media/image61.png)
+![Evidência no Volpe - TB_CADUNICO com IE e Kam](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image61.png)
 
 ---
 
