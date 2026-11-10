@@ -288,6 +288,37 @@
       text-decoration: underline;
     }
 
+    /* Collapsible JSON Accordions */
+    details {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 18px 0 22px;
+      transition: all 0.2s ease;
+    }
+
+    details[open] {
+      background: #ffffff;
+      border-color: var(--secondary);
+      box-shadow: 0 4px 14px rgba(0, 102, 204, 0.08);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--secondary);
+      outline: none;
+      padding: 4px 0;
+      user-select: none;
+      font-size: 0.95rem;
+      display: list-item;
+    }
+
+    summary:hover {
+      color: var(--primary);
+    }
+
     /* Tables */
     .content-card table {
       width: 100%;
@@ -456,7 +487,7 @@
   <header class="top-header" id="top">
     <div class="header-content">
       <div class="logo-box">
-        <img src="media/image62.png" alt="Ventana Serra - Grupo Arcese">
+        <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image62.png" alt="Ventana Serra - Grupo Arcese">
       </div>
       <h1>Manual de Integração CargoWise 2.0 &bull; ERP Volpe</h1>
       <p>Guia Técnico, Funcional, Tributário e Homologação de Testes no ERP Volpe</p>
@@ -474,23 +505,23 @@
         </div>
         
         <div class="downloads-buttons">
-          <a href="Manual_de_Integracao_CargoWise.pdf" download="Manual_de_Integracao_CargoWise.pdf" class="btn-dl btn-dl-pdf">
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf" download class="btn-dl btn-dl-pdf">
             <span>📕</span> Baixar Manual Oficial em PDF (1.3 MB)
           </a>
-          <a href="payloads_cargowise_json.zip" download="payloads_cargowise_json.zip" class="btn-dl btn-dl-zip">
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip" download class="btn-dl btn-dl-zip">
             <span>📦</span> Baixar Todos os JSONs em ZIP (21 KB)
           </a>
         </div>
 
         <div class="json-chips-wrapper">
           <span class="json-chips-label">Baixar JSON individual:</span>
-          <a href="json/01_account_parceiro_nacional_request.json" download class="chip-json" title="Cadastro CadÚnico (/Account)">⬇️ 01_account.json</a>
-          <a href="json/01_ap_fatura_padrao_request.json" download class="chip-json" title="Fatura AP Padrão (/AP)">⬇️ 01_ap_padrao.json</a>
-          <a href="json/02_ap_fatura_padrao_request.json" download class="chip-json" title="AP Rateio Contábil (/AP)">⬇️ 02_ap_rateio.json</a>
-          <a href="json/02_ar_faturamento_nfse_request.json" download class="chip-json" title="Faturamento AR com NFS-e (/AR)">⬇️ 02_ar_nfse.json</a>
-          <a href="json/03_ap_fatura_multiprocesso_real.json" download class="chip-json" title="AP Real 262 Taxas 58 Processos">⬇️ 03_ap_multiprocesso.json</a>
-          <a href="json/04_ar_faturamento_nfse_request.json" download class="chip-json" title="Faturamento Reforma Tributária IBS/CBS">⬇️ 04_ar_ibscbs.json</a>
-          <a href="json/05_contract_vinculo_request.json" download class="chip-json" title="Contrato Comercial (/Contract)">⬇️ 05_contract.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json" download class="chip-json" title="Cadastro CadÚnico (/Account)">⬇️ 01_account.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_ap_fatura_padrao_request.json" download class="chip-json" title="Fatura AP Padrão (/AP)">⬇️ 01_ap_padrao.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json" download class="chip-json" title="AP Rateio Contábil (/AP)">⬇️ 02_ap_rateio.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ar_faturamento_nfse_request.json" download class="chip-json" title="Faturamento AR com NFS-e (/AR)">⬇️ 02_ar_nfse.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json" download class="chip-json" title="AP Real 262 Taxas 58 Processos">⬇️ 03_ap_multiprocesso.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json" download class="chip-json" title="Faturamento Reforma Tributária IBS/CBS">⬇️ 04_ar_ibscbs.json</a>
+          <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json" download class="chip-json" title="Contrato Comercial (/Contract)">⬇️ 05_contract.json</a>
         </div>
       </div>
     </div>
@@ -817,10 +848,34 @@ A ausência ou envio de token inválido no header <code>x-access-token</code> in
 <li><strong>Endpoint:</strong> <code>POST /v1/cargowise/Account</code></li>
 <li><strong>Payload JSON:</strong></li>
 </ul>
-<blockquote>
-<p> <strong>Arquivo JSON:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json"><code>json/01_account_parceiro_nacional_request.json</code></a></p>
+<details>
+<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<br><blockquote>
+<p>💾 <strong>Download do arquivo:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json"><code>01_account_parceiro_nacional_request.json</code></a></p>
 </blockquote>
-<ul>
+<pre><code class="language-json">{
+  &quot;CorporateAccountCode&quot;: &quot;CLI-WOLPAC-01&quot;,
+  &quot;CompanyName&quot;: &quot;WOLPAC SISTEMAS DE CONTROLE LTDA&quot;,
+  &quot;IsClient&quot;: true,
+  &quot;IsSupplier&quot;: false,
+  &quot;Address&quot;: {
+    &quot;CountryCode&quot;: &quot;BRA&quot;,
+    &quot;Zone&quot;: &quot;SP&quot;,
+    &quot;City&quot;: &quot;Ferraz de Vasconcelos&quot;,
+    &quot;District&quot;: &quot;Vila Romanopolis&quot;,
+    &quot;Street&quot;: &quot;Avenida Brasil, 1500&quot;,
+    &quot;ZipCode&quot;: &quot;08500-000&quot;,
+    &quot;OtherInfo&quot;: &quot;Bloco A&quot;
+  },
+  &quot;BankFinancialInfo&quot;: {
+    &quot;CNPJ&quot;: &quot;02154879000185&quot;
+  },
+  &quot;TaxRegime&quot;: 3,
+  &quot;BusinessPhone&quot;: &quot;(11) 4674-8800&quot;,
+  &quot;Email&quot;: &quot;fiscal@wolpac.com.br&quot;
+}
+</code></pre>
+</details><ul>
 <li><strong>Resposta Esperada:</strong></li>
 </ul>
 <pre><code class="language-json">{
@@ -979,10 +1034,100 @@ O registro é criado no módulo de Cadastros Gerais com todos os campos fiscais 
 <li><strong>Endpoint:</strong> <code>POST /v1/cargowise/AP</code></li>
 <li><strong>Payload JSON:</strong></li>
 </ul>
-<blockquote>
-<p> <strong>Arquivo JSON:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json"><code>json/02_ap_fatura_padrao_request.json</code></a></p>
+<details>
+<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<br><blockquote>
+<p>💾 <strong>Download do arquivo:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json"><code>02_ap_fatura_padrao_request.json</code></a></p>
 </blockquote>
-<ul>
+<pre><code class="language-json">{
+  &quot;order&quot;: {
+    &quot;orderNumber&quot;: &quot;FAT-FORN-2026/01&quot;,
+    &quot;jobInvoiceNumber&quot;: &quot;S26TRN052045&quot;,
+    &quot;orderDate&quot;: &quot;2026-10-01T08:00:00&quot;,
+    &quot;orderType&quot;: 1,
+    &quot;creditNote&quot;: false,
+    &quot;currency&quot;: &quot;BRL&quot;,
+    &quot;totalAmount&quot;: 1500.00,
+    &quot;customerSupplierCode&quot;: &quot;WOLSOLBR&quot;,
+    &quot;crmAccountId&quot;: &quot;397688&quot;,
+    &quot;exchangeRate&quot;: 1.0,
+    &quot;paymentTermsDays&quot;: 30,
+    &quot;paymentMethod&quot;: &quot;TRF&quot;,
+    &quot;dueDate&quot;: &quot;2026-10-31T08:00:00&quot;,
+    &quot;createInvoiceUserCode&quot;: &quot;LHB&quot;,
+    &quot;createInvoiceUserName&quot;: &quot;Leonardo Henrique&quot;,
+    &quot;items&quot;: [
+      {
+        &quot;rowDescription&quot;: &quot;Frete Internacional Aéreo&quot;,
+        &quot;chargeCode&quot;: &quot;FRT&quot;,
+        &quot;quantity&quot;: 1,
+        &quot;unitAmount&quot;: 1500.00,
+        &quot;totalAmount&quot;: 1500.00,
+        &quot;currency&quot;: &quot;BRL&quot;,
+        &quot;cumulative&quot;: false,
+        &quot;isCustomDuty&quot;: false,
+        &quot;chargeLineBranch&quot;: &quot;REC&quot;,
+        &quot;chargeExchangeRate&quot;: 1.0,
+        &quot;shipmentsCharges&quot;: [
+          {
+            &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+            &quot;division&quot;: 3,
+            &quot;shipmentType&quot;: &quot;SPA&quot;,
+            &quot;chargeCode&quot;: &quot;FRT&quot;,
+            &quot;amount&quot;: 1500.00,
+            &quot;isCustomDuty&quot;: false
+          }
+        ]
+      }
+    ],
+    &quot;shipmentsDimensions&quot;: [
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;ShipmentBranch&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;REC&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;Department&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;FIA&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;CompetenceDate&quot;,
+        &quot;dimensionValueType&quot;: 2,
+        &quot;dimensionValueDate&quot;: &quot;2026-09-22T18:00:00&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;MasterBill&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;020-25591311&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;HouseBill&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;26TRN052045&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;IncoTerm&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;FCA&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+</details><ul>
 <li><strong>Resposta da API:</strong></li>
 </ul>
 <pre><code class="language-json">{
@@ -1046,10 +1191,157 @@ O registro é criado no módulo de Cadastros Gerais com todos os campos fiscais 
 </li>
 <li><strong>Payload JSON:</strong></li>
 </ul>
-<blockquote>
-<p> <strong>Arquivo JSON:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json"><code>json/03_ap_fatura_multiprocesso_real.json</code></a></p>
+<details>
+<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON da requisição (Estrutura Real Homologada)</b></summary>
+<br><blockquote>
+<p>💾 <strong>Download do arquivo integral (18.853 linhas / 567 KB):</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json"><code>03_ap_fatura_multiprocesso_real.json</code></a></p>
 </blockquote>
-<ul>
+<pre><code class="language-json">{
+  &quot;order&quot;: {
+    &quot;orderNumber&quot;: &quot;00032127/00062840/AP/20261007&quot;,
+    &quot;jobInvoiceNumber&quot;: &quot;&quot;,
+    &quot;orderDate&quot;: &quot;2026-10-07T00:00:00&quot;,
+    &quot;orderType&quot;: 1,
+    &quot;creditNote&quot;: false,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;totalAmount&quot;: null,
+    &quot;customerSupplierCode&quot;: &quot;VENSERUS&quot;,
+    &quot;crmAccountId&quot;: &quot;340483&quot;,
+    &quot;exchangeRate&quot;: 5.113876,
+    &quot;paymentTermsDays&quot;: 30,
+    &quot;paymentMethod&quot;: &quot;TRF&quot;,
+    &quot;dueDate&quot;: &quot;2026-11-06T09:03:00&quot;,
+    &quot;createInvoiceUserCode&quot;: &quot;CRU&quot;,
+    &quot;createInvoiceUserName&quot;: &quot;Cinzia Rubino&quot;,
+    &quot;_comentario_volumetria&quot;: &quot;Fatura real contendo 262 itens de encargos distribuídos em 58 processos operacionais (totalizando R$ 431.339,31 no ERP Volpe). Exibindo os 2 primeiros itens abaixo:&quot;,
+    &quot;items&quot;: [
+      {
+        &quot;rowDescription&quot;: &quot;Handling Charges&quot;,
+        &quot;costItem&quot;: null,
+        &quot;chargeCode&quot;: &quot;OHAN&quot;,
+        &quot;vatCode&quot;: null,
+        &quot;um&quot;: null,
+        &quot;quantity&quot;: 1,
+        &quot;unitAmount&quot;: 175,
+        &quot;totalAmount&quot;: 175,
+        &quot;currency&quot;: &quot;USD&quot;,
+        &quot;cumulative&quot;: false,
+        &quot;competenceDateStart&quot;: &quot;2026-08-25T00:00:00&quot;,
+        &quot;competenceDateEnd&quot;: &quot;2026-08-25T00:00:00&quot;,
+        &quot;erpInvoiceReference&quot;: null,
+        &quot;erpInvoiceReferenceDate&quot;: null,
+        &quot;isCustomDuty&quot;: false,
+        &quot;chargeLineBranch&quot;: &quot;BHZ&quot;,
+        &quot;chargeExchangeRate&quot;: 5.011886,
+        &quot;shipmentsCharges&quot;: [
+          {
+            &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+            &quot;division&quot;: 4,
+            &quot;shipmentType&quot;: &quot;SPM&quot;,
+            &quot;chargeCode&quot;: &quot;OHAN&quot;,
+            &quot;amount&quot;: 175,
+            &quot;isCustomDuty&quot;: false
+          }
+        ],
+        &quot;rowNotes&quot;: [],
+        &quot;taxes&quot;: [],
+        &quot;IBS_CBS&quot;: {}
+      },
+      {
+        &quot;rowDescription&quot;: &quot;VGM Transmission&quot;,
+        &quot;costItem&quot;: null,
+        &quot;chargeCode&quot;: &quot;OVGM&quot;,
+        &quot;vatCode&quot;: null,
+        &quot;um&quot;: null,
+        &quot;quantity&quot;: 1,
+        &quot;unitAmount&quot;: 10,
+        &quot;totalAmount&quot;: 10,
+        &quot;currency&quot;: &quot;USD&quot;,
+        &quot;cumulative&quot;: false,
+        &quot;competenceDateStart&quot;: &quot;2026-08-25T00:00:00&quot;,
+        &quot;competenceDateEnd&quot;: &quot;2026-08-25T00:00:00&quot;,
+        &quot;erpInvoiceReference&quot;: null,
+        &quot;erpInvoiceReferenceDate&quot;: null,
+        &quot;isCustomDuty&quot;: false,
+        &quot;chargeLineBranch&quot;: &quot;BHZ&quot;,
+        &quot;chargeExchangeRate&quot;: 5.012,
+        &quot;shipmentsCharges&quot;: [
+          {
+            &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+            &quot;division&quot;: 4,
+            &quot;shipmentType&quot;: &quot;SPM&quot;,
+            &quot;chargeCode&quot;: &quot;OVGM&quot;,
+            &quot;amount&quot;: 10,
+            &quot;isCustomDuty&quot;: false
+          }
+        ],
+        &quot;rowNotes&quot;: [],
+        &quot;taxes&quot;: [],
+        &quot;IBS_CBS&quot;: {}
+      },
+      &quot;... [mais 260 itens de encargos idênticos nos outros 56 processos operacionais. Baixe o JSON completo abaixo para o arquivo de 18.853 linhas] ...&quot;
+    ],
+    &quot;shipmentsDimensions&quot;: [
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;ServiceType&quot;,
+        &quot;dimensionValueType&quot;: 2,
+        &quot;dimensionValueString&quot;: null,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: &quot;2026-08-25T00:00:00&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;CompetenceDate&quot;,
+        &quot;dimensionValueType&quot;: 2,
+        &quot;dimensionValueString&quot;: null,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: &quot;2026-05-06T00:00:00&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;AirportDepartureCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;USA&quot;,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: null
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;DestinationCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;BRA&quot;,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: null
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;SenderCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;USA&quot;,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: null
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26CHI015873&quot;,
+        &quot;division&quot;: 4,
+        &quot;dimensionName&quot;: &quot;ArrivalPortCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;BRA&quot;,
+        &quot;dimensionValueNumeric&quot;: null,
+        &quot;dimensionValueDate&quot;: null
+      },
+      &quot;... [dimensões de todos os processos operacionais vinculados] ...&quot;
+    ]
+  }
+}
+</code></pre>
+</details><ul>
 <li><strong>Resposta da API:</strong></li>
 </ul>
 <pre><code class="language-json">{
@@ -1292,10 +1584,187 @@ No módulo AP, caso um encargo recebido (ex: <code>PF</code> - Processing Fee) n
 <li><strong>Endpoint:</strong> <code>POST /v1/cargowise/AR</code></li>
 <li><strong>Exemplo de Payload com Múltiplas Taxas, Retenções e Dimensões:</strong></li>
 </ul>
-<blockquote>
-<p> <strong>Arquivo JSON:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json"><code>json/04_ar_faturamento_nfse_request.json</code></a></p>
+<details>
+<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<br><blockquote>
+<p>💾 <strong>Download do arquivo:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json"><code>04_ar_faturamento_nfse_request.json</code></a></p>
 </blockquote>
-<ul>
+<pre><code class="language-json">{
+  &quot;order&quot;: {
+    &quot;orderNumber&quot;: &quot;2026/AUG404501/AR&quot;,
+    &quot;jobInvoiceNumber&quot;: &quot;S26TRN052045&quot;,
+    &quot;orderDate&quot;: &quot;2026-10-01T08:41:00&quot;,
+    &quot;orderType&quot;: 0,
+    &quot;creditNote&quot;: false,
+    &quot;currency&quot;: &quot;BRL&quot;,
+    &quot;customerSupplierCode&quot;: &quot;WOLSOLBR&quot;,
+    &quot;crmAccountId&quot;: &quot;397688&quot;,
+    &quot;exchangeRate&quot;: 1.0,
+    &quot;paymentTermsDays&quot;: 30,
+    &quot;paymentMethod&quot;: &quot;TRF&quot;,
+    &quot;dueDate&quot;: &quot;2026-10-31T08:41:00&quot;,
+    &quot;createInvoiceUserCode&quot;: &quot;LHB&quot;,
+    &quot;createInvoiceUserName&quot;: &quot;Leonardo Henrique&quot;,
+    &quot;items&quot;: [
+      {
+        &quot;rowDescription&quot;: &quot;International Freight&quot;,
+        &quot;chargeCode&quot;: &quot;FRT&quot;,
+        &quot;quantity&quot;: 1,
+        &quot;unitAmount&quot;: 1331.89,
+        &quot;totalAmount&quot;: 1331.89,
+        &quot;currency&quot;: &quot;BRL&quot;,
+        &quot;cumulative&quot;: false,
+        &quot;isCustomDuty&quot;: false,
+        &quot;chargeLineBranch&quot;: &quot;REC&quot;,
+        &quot;chargeExchangeRate&quot;: 1.0,
+        &quot;shipmentsCharges&quot;: [
+          {
+            &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+            &quot;division&quot;: 3,
+            &quot;shipmentType&quot;: &quot;SPA&quot;,
+            &quot;chargeCode&quot;: &quot;FRT&quot;,
+            &quot;amount&quot;: 1331.89,
+            &quot;isCustomDuty&quot;: false
+          }
+        ],
+        &quot;taxes&quot;: [],
+        &quot;IBS_CBS&quot;: {
+          &quot;SituacaoTributaria&quot;: &quot;&quot;,
+          &quot;ClassificacaoTributaria&quot;: &quot;&quot;,
+          &quot;BaseCalculo&quot;: 0,
+          &quot;TotalIBS&quot;: 0,
+          &quot;ValorTotalIBS_CBS_IS&quot;: 0
+        }
+      },
+      {
+        &quot;rowDescription&quot;: &quot;Collect Fee&quot;,
+        &quot;chargeCode&quot;: &quot;CCLFEE&quot;,
+        &quot;quantity&quot;: 1,
+        &quot;unitAmount&quot;: 70.59,
+        &quot;totalAmount&quot;: 70.59,
+        &quot;currency&quot;: &quot;BRL&quot;,
+        &quot;cumulative&quot;: false,
+        &quot;isCustomDuty&quot;: false,
+        &quot;chargeLineBranch&quot;: &quot;REC&quot;,
+        &quot;chargeExchangeRate&quot;: 1.0,
+        &quot;shipmentsCharges&quot;: [
+          {
+            &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+            &quot;division&quot;: 3,
+            &quot;shipmentType&quot;: &quot;SPA&quot;,
+            &quot;chargeCode&quot;: &quot;CCLFEE&quot;,
+            &quot;amount&quot;: 70.59,
+            &quot;isCustomDuty&quot;: false
+          }
+        ],
+        &quot;taxes&quot;: [
+          {
+            &quot;taxCode&quot;: &quot;ISS&quot;,
+            &quot;taxRate&quot;: 5.0,
+            &quot;localTaxBase&quot;: 70.59,
+            &quot;localTaxAmount&quot;: -3.53
+          },
+          {
+            &quot;taxCode&quot;: &quot;PCOFIN&quot;,
+            &quot;taxRate&quot;: 7.6,
+            &quot;localTaxBase&quot;: 70.59,
+            &quot;localTaxAmount&quot;: -5.36
+          },
+          {
+            &quot;taxCode&quot;: &quot;PPIS&quot;,
+            &quot;taxRate&quot;: 1.65,
+            &quot;localTaxBase&quot;: 70.59,
+            &quot;localTaxAmount&quot;: -1.16
+          },
+          {
+            &quot;taxCode&quot;: &quot;IRRF&quot;,
+            &quot;taxRate&quot;: 1.5,
+            &quot;localTaxBase&quot;: 70.59,
+            &quot;localTaxAmount&quot;: -1.06
+          }
+        ],
+        &quot;IBS_CBS&quot;: {
+          &quot;SituacaoTributaria&quot;: &quot;&quot;,
+          &quot;ClassificacaoTributaria&quot;: &quot;&quot;,
+          &quot;BaseCalculo&quot;: 70.59,
+          &quot;TotalIBS&quot;: 0.07,
+          &quot;ValorTotalIBS_CBS_IS&quot;: 0.71,
+          &quot;IBS_UF&quot;: {
+            &quot;AliquotaIBS_UF&quot;: 0.1,
+            &quot;ValorIBS_UF&quot;: 0.07
+          },
+          &quot;CBS&quot;: {
+            &quot;AliquotaCBS&quot;: 0.9,
+            &quot;ValorCBS&quot;: 0.64
+          },
+          &quot;TributacaoRegular&quot;: &quot;Tributação Normal&quot;,
+          &quot;CreditoPresumido&quot;: &quot;Sem crédito presumido&quot;,
+          &quot;ComprasGovernamentais&quot;: &quot;Não aplicável&quot;
+        }
+      }
+    ],
+    &quot;shipmentsDimensions&quot;: [
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;ShipmentBranch&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;REC&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;Department&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;FIA&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;OriginCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;ITA&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;DestinationCountry&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;BRA&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;CompetenceDate&quot;,
+        &quot;dimensionValueType&quot;: 2,
+        &quot;dimensionValueDate&quot;: &quot;2026-09-22T18:00:00&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;MasterBill&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;020-25591311&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;HouseBill&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;26TRN052045&quot;
+      },
+      {
+        &quot;shipmentNumber&quot;: &quot;S26TRN052045&quot;,
+        &quot;division&quot;: 3,
+        &quot;dimensionName&quot;: &quot;IncoTerm&quot;,
+        &quot;dimensionValueType&quot;: 0,
+        &quot;dimensionValueString&quot;: &quot;FCA&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+</details><ul>
 <li><strong>Resposta da API:</strong></li>
 </ul>
 <pre><code class="language-json">{
@@ -1441,10 +1910,20 @@ No módulo AP, caso um encargo recebido (ex: <code>PF</code> - Processing Fee) n
 <li><strong>Endpoint:</strong> <code>POST /v1/cargowise/Contract</code></li>
 <li><strong>Payload JSON:</strong></li>
 </ul>
-<blockquote>
-<p> <strong>Arquivo JSON:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json"><code>json/05_contract_vinculo_request.json</code></a></p>
+<details>
+<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<br><blockquote>
+<p>💾 <strong>Download do arquivo:</strong> <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json"><code>05_contract_vinculo_request.json</code></a></p>
 </blockquote>
-<ul>
+<pre><code class="language-json">{
+  &quot;CorporateAccountCode&quot;: &quot;CLI-WOLPAC-01&quot;,
+  &quot;ContractNumber&quot;: &quot;CTR-VENTANA-2026/99&quot;,
+  &quot;BrazilRegistrationIE&quot;: &quot;EXEMPT&quot;,
+  &quot;BrazilRegistrationIM&quot;: &quot;98745632&quot;,
+  &quot;RepresentativeEmail&quot;: &quot;vendedor.kam@ventanaserra.com.br&quot;
+}
+</code></pre>
+</details><ul>
 <li><strong>Resposta da API:</strong></li>
 </ul>
 <pre><code class="language-json">{
@@ -1638,7 +2117,6 @@ No módulo AP, caso um encargo recebido (ex: <code>PF</code> - Processing Fee) n
     document.querySelectorAll('h1, h2, h3, h4').forEach(el => {
       if (!el.id) {
         const text = el.textContent.trim().toLowerCase();
-        // Generate matching id for markdown TOC
         const cleanId = text
           .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
           .replace(/[^a-z0-9]+/g, '-')
@@ -1647,12 +2125,10 @@ No módulo AP, caso um encargo recebido (ex: <code>PF</code> - Processing Fee) n
       }
     });
 
-    // Also support exact percent-encoded href targets
     document.querySelectorAll('.content-card a[href^="#"]').forEach(a => {
       const targetHash = decodeURIComponent(a.getAttribute('href').substring(1));
       const targetEl = document.getElementById(targetHash);
       if (!targetEl) {
-        // try finding heading with close text
         const headings = Array.from(document.querySelectorAll('h1, h2, h3, h4'));
         const matched = headings.find(h => {
           const hText = h.textContent.trim().toLowerCase();
