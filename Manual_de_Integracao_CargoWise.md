@@ -1,8 +1,3 @@
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image62.png" alt="Ventana Serra" width="280" style="max-width: 280px; height: auto;" />
-
-</div>
 
 # Manual de Integração CargoWise 2.0
 
