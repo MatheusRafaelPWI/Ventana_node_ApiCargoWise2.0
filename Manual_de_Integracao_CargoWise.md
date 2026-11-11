@@ -10,10 +10,10 @@ Esta documentação detalha a arquitetura da API Ventana Node CargoWise 2.0. Aqu
 >
 > [![Baixar Manual em PDF](https://img.shields.io/badge/Download-PDF%20Oficial-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
 > &nbsp;
-> [![Baixar Pacote Completo (JSON e Media)](https://img.shields.io/badge/Download-Pacote%20JSON%20e%20Media%20(ZIP)-059669?style=for-the-badge&logo=zip&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/arquivos.zip)
+> [![Baixar Pacote Completo (JSON e Media)](https://img.shields.io/badge/Download-Pacote%20JSON%20e%20Media%20(RAR)-059669?style=for-the-badge&logo=winrar&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/arquivos.rar)
 >
 > * **PDF Executivo Oficial:** [`Manual_de_Integracao_CargoWise.pdf`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf) *(1.3 MB)*
-> * **Pacote Completo (Pastas JSON e Media):** [`arquivos.zip`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/arquivos.zip) *(1.8 MB)*
+> * **Pacote Completo (Pastas JSON e Media):** [`arquivos.rar`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/arquivos.rar) *(1.8 MB)*
 > * **Catálogo Individual JSON:** Pasta [`json/`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/) contendo todos os payloads de requisição desacoplados.
 
 ---
