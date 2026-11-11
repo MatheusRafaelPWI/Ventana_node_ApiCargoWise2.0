@@ -11,11 +11,11 @@
 Esta documentação detalha a arquitetura da API Ventana Node CargoWise 2.0. Aqui você encontrará o detalhamento das rotas, fluxos de validação, mapeamentos de tabelas, payloads esperados e listas de possíveis retornos, além de espaços dedicados para anexar evidências de homologação.
 
 > [!NOTE]
-> ### 📥 Central de Downloads Rápidos da Documentação
+> ### Central de Downloads Rápidos da Documentação
 >
-> [![⬇️ Baixar Manual em PDF](https://img.shields.io/badge/⬇️%20Baixar-PDF%20Oficial-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
+> [![Baixar Manual em PDF](https://img.shields.io/badge/Download-PDF%20Oficial-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
 > &nbsp;
-> [![⬇️ Baixar Pacote JSONs](https://img.shields.io/badge/⬇️%20Baixar-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip)
+> [![Baixar Pacote JSONs](https://img.shields.io/badge/Download-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip)
 >
 > * **PDF Executivo Oficial:** [`Manual_de_Integracao_CargoWise.pdf`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf) *(1.3 MB)*
 > * **Pacote com Todos os JSONs:** [`payloads_cargowise_json.zip`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip) *(21 KB)*
@@ -213,10 +213,10 @@ A API executa 3 camadas de busca antes de criar um novo registro:
 * **Payload JSON:**
 
 <details>
-<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<summary><b>Clique para expandir e visualizar o payload JSON completo da requisição</b></summary>
 <br>
 
-> 💾 **Download do arquivo:** [`01_account_parceiro_nacional_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json)
+> **Download do arquivo:** [`01_account_parceiro_nacional_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json)
 
 ```json
 {
@@ -344,10 +344,10 @@ Quando a fatura for enviada com `"creditNote": true`:
 * **Payload JSON:**
 
 <details>
-<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<summary><b>Clique para expandir e visualizar o payload JSON completo da requisição</b></summary>
 <br>
 
-> 💾 **Download do arquivo:** [`02_ap_fatura_padrao_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json)
+> **Download do arquivo:** [`02_ap_fatura_padrao_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json)
 
 ```json
 {
@@ -499,10 +499,10 @@ Quando a fatura for enviada com `"creditNote": true`:
 * **Payload JSON:**
 
 <details>
-<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON da requisição (Estrutura Real Homologada)</b></summary>
+<summary><b>Clique para expandir e visualizar o payload JSON da requisição (Estrutura Real Homologada)</b></summary>
 <br>
 
-> 💾 **Download do arquivo integral (18.853 linhas / 567 KB):** [`03_ap_fatura_multiprocesso_real.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json)
+> **Download do arquivo integral (18.853 linhas / 567 KB):** [`03_ap_fatura_multiprocesso_real.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json)
 
 ```json
 {
@@ -779,10 +779,10 @@ Quando o faturamento for cancelado na CargoWise e reenviado com `"creditNote": t
 * **Exemplo de Payload com Múltiplas Taxas, Retenções e Dimensões:**
 
 <details>
-<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<summary><b>Clique para expandir e visualizar o payload JSON completo da requisição</b></summary>
 <br>
 
-> 💾 **Download do arquivo:** [`04_ar_faturamento_nfse_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json)
+> **Download do arquivo:** [`04_ar_faturamento_nfse_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json)
 
 ```json
 {
@@ -1064,10 +1064,10 @@ Registrar os termos e protocolos comerciais pactuados na CargoWise, atualizando 
 * **Payload JSON:**
 
 <details>
-<summary><b>👁️ Clique aqui para expandir e visualizar o payload JSON completo da requisição</b></summary>
+<summary><b>Clique para expandir e visualizar o payload JSON completo da requisição</b></summary>
 <br>
 
-> 💾 **Download do arquivo:** [`05_contract_vinculo_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json)
+> **Download do arquivo:** [`05_contract_vinculo_request.json`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json)
 
 ```json
 {

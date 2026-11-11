@@ -13,13 +13,13 @@
 
 <br />
 
-### 📥 Central de Downloads Rápidos (Clique para Baixar)
+### Central de Downloads Rápidos
 
-[![⬇️ Baixar Manual Oficial em PDF](https://img.shields.io/badge/⬇️%20Baixar-Manual%20Oficial%20(PDF)-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
+[![Baixar Manual Oficial em PDF](https://img.shields.io/badge/Download-Manual%20Oficial%20(PDF)-dc2626?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf)
 &nbsp;
-[![⬇️ Baixar Pacote de JSONs](https://img.shields.io/badge/⬇️%20Baixar-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip)
+[![Baixar Pacote de JSONs](https://img.shields.io/badge/Download-Pacote%20JSON%20(ZIP)-059669?style=for-the-badge&logo=json&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip)
 &nbsp;
-[![🌐 Abrir Apresentação Web](https://img.shields.io/badge/🌐%20Visualizar-Apresentação%20Web%20(HTML)-4f46e5?style=for-the-badge)](Apresentacao_Cliente_CargoWise.html)
+[![Abrir Apresentação Web](https://img.shields.io/badge/Visualizar-Apresentação%20Web%20(HTML)-4f46e5?style=for-the-badge)](Apresentacao_Cliente_CargoWise.html)
 
 <br />
 
@@ -29,40 +29,40 @@
 
 </div>
 
-## 📌 Documentação Oficial & Downloads Individuais
+## Documentação Oficial & Downloads Individuais
 
 Para download direto de qualquer arquivo de especificação ou exemplo prático de teste, utilize a tabela abaixo:
 
 | Arquivo / Recurso | Tipo | Descrição | Tamanho | Ação de Download |
 | :--- | :---: | :--- | :---: | :---: |
-| 📕 **Manual de Integração CargoWise (PDF)** | `PDF` | Documento executivo oficial diagramado em alta resolução | ~1.3 MB | [![Baixar PDF](https://img.shields.io/badge/Download-PDF-dc2626?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf) |
-| 📦 **Pacote Completo de Payloads JSON (ZIP)** | `ZIP` | **Todos os 7 payloads de teste** empacotados em um único arquivo | ~21 KB | [![Baixar ZIP](https://img.shields.io/badge/Download-ZIP-059669?style=flat-square&logo=zip&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip) |
-| 📄 `01_account_parceiro_nacional_request.json` | `JSON` | Payload de cadastro/vínculo no CadÚnico (`POST /Account`) | 521 B | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json) |
-| 📄 `01_ap_fatura_padrao_request.json` | `JSON` | Payload fatura AP padrão com frete internacional (`POST /AP`) | 2.5 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_ap_fatura_padrao_request.json) |
-| 📄 `02_ap_fatura_padrao_request.json` | `JSON` | Payload alternativo de AP com rateio contábil (`POST /AP`) | 2.5 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json) |
-| 📄 `02_ar_faturamento_nfse_request.json` | `JSON` | Faturamento AR com NFS-e e retenções (`POST /AR`) | 4.9 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ar_faturamento_nfse_request.json) |
-| 📄 `03_ap_fatura_multiprocesso_real.json` | `JSON` | Caso real: 262 taxas em 58 processos (R$ 431k homologados) | 567 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json) |
-| 📄 `04_ar_faturamento_nfse_request.json` | `JSON` | Faturamento AR com Reforma Tributária IBS/CBS (`POST /AR`) | 4.9 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json) |
-| 📄 `05_contract_vinculo_request.json` | `JSON` | Vínculo de contrato comercial, IE e KAM (`POST /Contract`) | 224 B | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json) |
-| 🌐 **Apresentação Executiva Standalone** | `HTML` | Visualização limpa em tela cheia para clientes sem GitHub | ~15 KB | [![Abrir HTML](https://img.shields.io/badge/Visualizar-HTML-4f46e5?style=flat-square)](Apresentacao_Cliente_CargoWise.html) |
+| **Manual de Integração CargoWise (PDF)** | `PDF` | Documento executivo oficial diagramado em alta resolução | ~1.3 MB | [![Baixar PDF](https://img.shields.io/badge/Download-PDF-dc2626?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/Manual_de_Integracao_CargoWise.pdf) |
+| **Pacote Completo de Payloads JSON (ZIP)** | `ZIP` | **Todos os 7 payloads de teste** empacotados em um único arquivo | ~21 KB | [![Baixar ZIP](https://img.shields.io/badge/Download-ZIP-059669?style=flat-square&logo=zip&logoColor=white)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip) |
+| `01_account_parceiro_nacional_request.json` | `JSON` | Payload de cadastro/vínculo no CadÚnico (`POST /Account`) | 521 B | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_account_parceiro_nacional_request.json) |
+| `01_ap_fatura_padrao_request.json` | `JSON` | Payload fatura AP padrão com frete internacional (`POST /AP`) | 2.5 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/01_ap_fatura_padrao_request.json) |
+| `02_ap_fatura_padrao_request.json` | `JSON` | Payload alternativo de AP com rateio contábil (`POST /AP`) | 2.5 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ap_fatura_padrao_request.json) |
+| `02_ar_faturamento_nfse_request.json` | `JSON` | Faturamento AR com NFS-e e retenções (`POST /AR`) | 4.9 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/02_ar_faturamento_nfse_request.json) |
+| `03_ap_fatura_multiprocesso_real.json` | `JSON` | Caso real: 262 taxas em 58 processos (R$ 431k homologados) | 567 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/03_ap_fatura_multiprocesso_real.json) |
+| `04_ar_faturamento_nfse_request.json` | `JSON` | Faturamento AR com Reforma Tributária IBS/CBS (`POST /AR`) | 4.9 KB | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/04_ar_faturamento_nfse_request.json) |
+| `05_contract_vinculo_request.json` | `JSON` | Vínculo de contrato comercial, IE e KAM (`POST /Contract`) | 224 B | [![Baixar JSON](https://img.shields.io/badge/Download-JSON-orange?style=flat-square)](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/05_contract_vinculo_request.json) |
+| **Apresentação Executiva Standalone** | `HTML` | Visualização limpa em tela cheia para clientes sem GitHub | ~15 KB | [![Abrir HTML](https://img.shields.io/badge/Visualizar-HTML-4f46e5?style=flat-square)](Apresentacao_Cliente_CargoWise.html) |
 
 > [!TIP]
 > **Dica para o Cliente:** Clicando em qualquer botão de download acima, o arquivo é aberto ou baixado diretamente para a sua máquina.
 
 ---
 
-## 🎯 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 A **API CargoWise 2.0** é o ecossistema de integração desenvolvido para conectar de forma bidirecional e automatizada a operação global de agenciamento de cargas no **CargoWise** ao ecossistema corporativo e fiscal do **ERP Volpe** da **Ventana Serra (Grupo Arcese)**.
 
 ```mermaid
 flowchart LR
-    CW["🌐 CargoWise One<br/>(Operação Global)"] -->|"JSON / HTTPS<br/>(Bearer Token)"| API["⚙️ API Ventana CargoWise 2.0<br/>(Node.js / Plata Runtime)"]
-    API -->|"Transações ACID<br/>(Rollback Total)"| VOLPE[("🏢 ERP Volpe<br/>(SQL Server)")]
-    VOLPE --> CAD["👥 CadÚnico (Parceiros)"]
-    VOLPE --> FIN["💰 Financeiro (AP & AR)"]
-    VOLPE --> FIS["🧾 Fiscal (NFS-e & RPS)"]
-    VOLPE --> OP["🚢 Operacional (Processos)"]
+    CW["CargoWise One<br/>(Operação Global)"] -->|"JSON / HTTPS<br/>(Bearer Token)"| API["API Ventana CargoWise 2.0<br/>(Node.js / Plata Runtime)"]
+    API -->|"Transações ACID<br/>(Rollback Total)"| VOLPE[("ERP Volpe<br/>(SQL Server)")]
+    VOLPE --> CAD["CadÚnico (Parceiros)"]
+    VOLPE --> FIN["Financeiro (AP & AR)"]
+    VOLPE --> FIS["Fiscal (NFS-e & RPS)"]
+    VOLPE --> OP["Operacional (Processos)"]
 
     classDef cw fill:#0b3c5d,stroke:#072a42,stroke-width:2px,color:#ffffff;
     classDef api fill:#0052cc,stroke:#0747a6,stroke-width:2px,color:#ffffff;
@@ -74,17 +74,17 @@ flowchart LR
     class CAD,FIN,FIS,OP dest;
 ```
 
-### 💼 Benefícios e Ganhos de Negócio
+### Benefícios e Ganhos de Negócio
 
-* ⚡ **Eliminação Total de Digitação Manual:** Sincronização automática de parceiros, conhecimentos de frete, despesas operacionais e notas de débito.
-* 🛡️ **Conformidade Fiscal e Reforma Tributária:** Mapeamento integral dos tributos retidos federais e municipais (ISS, PIS, COFINS, IRRF, CSLL) e suporte preparado para a transição do **IBS/CBS**.
-* 🔒 **Segurança Transacional ACID:** Todas as operações que afetam múltiplos módulos realizam validação integral. Se qualquer validação fiscal falhar, 100% da transação sofre *rollback*, impedindo a geração de títulos órfãos ou notas fiscais desvinculadas.
-* 💱 **Gestão Eficiente de Câmbio e Moedas Estrangeiras:** Conversão precisa de montantes em moedas como USD e EUR pela taxa oficial enviada, aplicando rateios corretos por centro de custo e processo operacional (*Shipment*).
-* 🔄 **Ciclo Completo com Suporte a Estornos:** Tratamento nativo de cancelamentos e notas de crédito (`creditNote: true`), liquidando e estornando contas no ERP Volpe de forma espelhada ao CargoWise.
+* **Eliminação Total de Digitação Manual:** Sincronização automática de parceiros, conhecimentos de frete, despesas operacionais e notas de débito.
+* **Conformidade Fiscal e Reforma Tributária:** Mapeamento integral dos tributos retidos federais e municipais (ISS, PIS, COFINS, IRRF, CSLL) e suporte preparado para a transição do **IBS/CBS**.
+* **Segurança Transacional ACID:** Todas as operações que afetam múltiplos módulos realizam validação integral. Se qualquer validação fiscal falhar, 100% da transação sofre *rollback*, impedindo a geração de títulos órfãos ou notas fiscais desvinculadas.
+* **Gestão Eficiente de Câmbio e Moedas Estrangeiras:** Conversão precisa de montantes em moedas como USD e EUR pela taxa oficial enviada, aplicando rateios corretos por centro de custo e processo operacional (*Shipment*).
+* **Ciclo Completo com Suporte a Estornos:** Tratamento nativo de cancelamentos e notas de crédito (`creditNote: true`), liquidando e estornando contas no ERP Volpe de forma espelhada ao CargoWise.
 
 ---
 
-## 🏗️ Arquitetura e Segurança
+## Arquitetura e Segurança
 
 A solução foi projetada sob padrões corporativos de alta resiliência e desempenho:
 
@@ -104,7 +104,7 @@ A solução foi projetada sob padrões corporativos de alta resiliência e desem
 
 ---
 
-## 🚀 Módulos e Endpoints Disponíveis
+## Módulos e Endpoints Disponíveis
 
 A integração abrange todo o fluxo operacional, financeiro e comercial:
 
@@ -118,22 +118,22 @@ A integração abrange todo o fluxo operacional, financeiro e comercial:
 
 ---
 
-## 📊 Status da Homologação no ERP Volpe
+## Status da Homologação no ERP Volpe
 
 Todos os cenários operacionais foram homologados com dados reais e encontram-se certificados:
 
 ```
-[✔] Cadastro de Parceiro Nacional com CNPJ e Regime Tributário      -> Validado (ID 36268)
-[✔] Cadastro de Parceiro Internacional (NIF / Endereço Exterior)     -> Validado
-[✔] Fatura AP Padrão com Rateio e Frete Internacional               -> Validado (ID 14008)
-[✔] Fatura AP Multi-Processos (262 taxas, 58 processos, R$ 431k)    -> Validado (ID 1953450)
-[✔] Estorno de Fatura AP com baixa e reversão financeira             -> Validado (FI_BAIXAS)
-[✔] Faturamento AR com Emissão Automática de NFS-e / RPS             -> Validado (ID 80031)
-[✔] Tratamento de Isenções e Reforma Tributária (IBS/CBS)           -> Validado
-[✔] Vínculo Contratual Comercial com Representante KAM               -> Validado (ID 14022)
+[OK] Cadastro de Parceiro Nacional com CNPJ e Regime Tributário      -> Validado (ID 36268)
+[OK] Cadastro de Parceiro Internacional (NIF / Endereço Exterior)     -> Validado
+[OK] Fatura AP Padrão com Rateio e Frete Internacional               -> Validado (ID 14008)
+[OK] Fatura AP Multi-Processos (262 taxas, 58 processos, R$ 431k)    -> Validado (ID 1953450)
+[OK] Estorno de Fatura AP com baixa e reversão financeira             -> Validado (FI_BAIXAS)
+[OK] Faturamento AR com Emissão Automática de NFS-e / RPS             -> Validado (ID 80031)
+[OK] Tratamento de Isenções e Reforma Tributária (IBS/CBS)           -> Validado
+[OK] Vínculo Contratual Comercial com Representante KAM               -> Validado (ID 14022)
 ```
 
-### 📸 Evidências Reais de Homologação
+### Evidências Reais de Homologação
 
 <div align="center" style="margin: 20px 0;">
   <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/volpe_ap_contas_a_pagar_real.jpg" alt="Fatura Multi-Processos Homologada no ERP Volpe" style="width: 100%; max-width: 900px; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.06);" />
@@ -151,7 +151,7 @@ Todos os cenários operacionais foram homologados com dados reais e encontram-se
 
 ---
 
-## 🧪 Como Realizar Testes e Homologações
+## Como Realizar Testes e Homologações
 
 Para enviar requisições de teste à API, baixe o pacote [`payloads_cargowise_json.zip`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/payloads_cargowise_json.zip) ou use os arquivos da pasta [`json/`](https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/json/):
 
@@ -180,7 +180,7 @@ curl -X GET "https://api.ventanaserrabrasil.com.br/v1/version"
 
 ---
 
-## 💼 Informações Corporativas & Suporte
+## Informações Corporativas & Suporte
 
 * **Cliente:** Ventana Serra do Brasil / Grupo Arcese
 * **Desenvolvimento & Integração:** PWI Tecnologia
