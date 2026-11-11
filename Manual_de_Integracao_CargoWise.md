@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image62.png" alt="Ventana Serra - Grupo Arcese" width="280" style="max-width: 280px; height: auto;" />
+<img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/image62.png" alt="Ventana Serra" width="280" style="max-width: 280px; height: auto;" />
 
 </div>
 
@@ -90,9 +90,6 @@ A API foi construída sobre o framework corporativo **Plata Runtime (`pwi-plata-
   <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
     <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.png" alt="Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
-  <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Arquitetural 1: Arquitetura Técnica, Plata Runtime & Transacionalidade ACID &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_1.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
-  </p>
 </div>
 
 ### 2.1. Pilares Arquiteturais
@@ -153,9 +150,6 @@ Sincronizar a base de parceiros (clientes, fornecedores, agentes no exterior e f
   <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
     <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.png" alt="Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
-  <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 2: Módulo Parceiros & Cadastro Único (POST /Account) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_2.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
-  </p>
 </div>
 
 ### 4.3. Dicionário De-Para (`TB_CADUNICO`)
@@ -286,9 +280,6 @@ Registrar no ERP Volpe as faturas de despesas operacionais e custos de fornecedo
   <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
     <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.png" alt="Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
-  <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 3: Módulo Contas a Pagar (POST /AP — Inclusão e Estorno) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_3.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
-  </p>
 </div>
 
 ### 5.3. Dicionário De-Para (`FI_MOVFIN` / `AG_PROCESSOTAXAS`)
@@ -488,14 +479,18 @@ Quando a fatura for enviada com `"creditNote": true`:
 #### Cenário 5.8.3: Fatura Internacional Multi-Processos em Moeda Estrangeira (Caso Real Homologado)
 
 * **Endpoint:** `POST /v1/cargowise/AP`
-* **Documento / Invoice:** `00062840` (ID Financeiro `1952355`)
-* **Fornecedor:** `42463 - VENTANA SERRA MIAMI` (`customerSupplierCode: "VENSERUS"`)
-* **Moeda:** `USD` | **Cotação Oficial:** `5,113876`
-* **Valor Moeda:** `$ 84.346,85 USD` | **Valor Bruto / Líquido:** `R$ 431.339,31`
+* **Documento / Invoice:** `00062840MAT4` (ID ERP Volpe: `1953450` | Tp. Doc: `DP`)
+* **Referência Volpe:** `PAGAMENTO TXS PROCESSO - AGENTES PL - 00062840MAT4` (Modelo/Contrato: `10760` | Origem: `SP - 0`)
+* **Fornecedor:** `42463 - VENTANA SERRA MIAMI` (`customerSupplierCode: "VENSERUS"` | Empresa: `AG`)
+* **Moeda:** `USD` | **Cotação Oficial (Vl. Cot.):** `5,113876`
+* **Valores Homologados no ERP Volpe:**
+  * **Valor Moeda Estrangeira (Vl. Moeda):** `$ 84.346,85 USD` (`84346,8500`)
+  * **Valor Bruto / Líquido / Rateado:** `R$ 431.339,31`
+* **Datas da Operação:** Emissão: `07/10/2026` | Vencimento: `06/11/2026` | Usuário CW: `CRU`
 * **Destaques Arquiteturais & Volumetria:**
-  * Fatura de alta complexidade contendo **262 itens de encargos** distribuídos entre **58 processos operacionais** distintos (`S26CHI015873`, `S26CHI020938`, `S26CHI022448`, `S26GRU...`, `S26MIA...`, etc.).
-  * Consolidação contábil no centro de custo operacional da filial executora (`02.000` / `BHZ`) com o segmento contábil da máscara de agentes (`5.1.4.01.002` • `AGENTES A PAGAR`).
-  * Demonstra a paridade integral e a robustez transacional da API ao converter múltiplos câmbios de itens e consolidar o valor bruto de R$ 431.339,31.
+  * Fatura de alta complexidade contendo **261 itens de encargos** (conforme registrado no campo *Itens: 261* do ERP Volpe) distribuídos entre **58 processos operacionais** distintos (`S26CHI015873`, `S26CHI020938`, `S26CHI022448`, `S26GRU...`, `S26MIA...`, etc.).
+  * Consolidação contábil no centro de custo operacional da filial executora (`02.000` / `BHZ RECEITA/FATURAM`) com o segmento contábil da máscara de agentes (`5.1.4.01.002` - `AGENTES A PAGAR`).
+  * Demonstra a paridade integral e a robustez transacional da API ao converter múltiplos câmbios de itens e consolidar o valor bruto exato de R$ 431.339,31 no financeiro e no valor rateado.
 * **Payload JSON:**
 
 <details>
@@ -522,7 +517,7 @@ Quando a fatura for enviada com `"creditNote": true`:
     "dueDate": "2026-11-06T09:03:00",
     "createInvoiceUserCode": "CRU",
     "createInvoiceUserName": "Cinzia Rubino",
-    "_comentario_volumetria": "Fatura real contendo 262 itens de encargos distribuídos em 58 processos operacionais (totalizando R$ 431.339,31 no ERP Volpe). Exibindo os 2 primeiros itens abaixo:",
+    "_comentario_volumetria": "Fatura real contendo 261 itens de encargos distribuídos em 58 processos operacionais (totalizando R$ 431.339,31 e ID 1953450 no ERP Volpe). Exibindo os 2 primeiros itens abaixo:",
     "items": [
       {
         "rowDescription": "Handling Charges",
@@ -696,9 +691,6 @@ O módulo AR é o coração financeiro e fiscal da integração da Ventana Serra
   <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
     <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.png" alt="Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
-  <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 4: Módulo Contas a Receber (POST /AR — Faturamento & NFS-e) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_4.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
-  </p>
 </div>
 
 ### 6.3. Dicionário De-Para (`AG_FATURADO` / `FI_MOVFIN` / `FT_NSERVICOS`)
@@ -1026,9 +1018,6 @@ Registrar os termos e protocolos comerciais pactuados na CargoWise, atualizando 
   <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.svg" target="_blank" title="Clique para abrir em tela cheia (Vetor SVG)">
     <img src="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.png" alt="Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM)" style="width: 100%; max-width: 1100px; height: auto; display: block; margin: 0 auto; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px; background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08);" />
   </a>
-  <p style="font-size: 9.5pt; color: #003366; font-weight: 600; margin-top: 8px;">
-    Fluxograma Operacional 5: Módulo Contratos Comerciais (POST /Contract & KAM) &bull; <a href="https://raw.githubusercontent.com/MatheusRafaelPWI/Ventana_node_ApiCargoWise2.0/main/media/diagram_mermaid_5.svg" target="_blank" style="color: #1a5fb4; text-decoration: underline;">Abrir em Vetor SVG HD (Zoom Máximo)</a>
-  </p>
 </div>
 
 ### 7.3. Dicionário De-Para (`CW_CONTRATO` / `TB_CADUNICO`)
